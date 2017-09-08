@@ -13,6 +13,13 @@
 		7163C1C31F622B310046049D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7163C1C11F622B310046049D /* Main.storyboard */; };
 		7163C1C51F622B310046049D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7163C1C41F622B310046049D /* Assets.xcassets */; };
 		7163C1C81F622B310046049D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7163C1C61F622B310046049D /* LaunchScreen.storyboard */; };
+		7163C1DE1F622B8B0046049D /* TKChatRoomSensitiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163C1D11F622B8B0046049D /* TKChatRoomSensitiveViewController.m */; };
+		7163C1DF1F622B8B0046049D /* TKEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163C1D31F622B8B0046049D /* TKEditViewController.m */; };
+		7163C1E01F622B8B0046049D /* TKMultiSelectContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163C1D51F622B8B0046049D /* TKMultiSelectContactsViewController.m */; };
+		7163C1E11F622B8B0046049D /* TKRobotConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163C1D71F622B8B0046049D /* TKRobotConfig.m */; };
+		7163C1E21F622B8B0046049D /* TKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163C1D91F622B8B0046049D /* TKSettingViewController.m */; };
+		7163C1E31F622B8B0046049D /* TKToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163C1DB1F622B8B0046049D /* TKToast.m */; };
+		7163C1E41F622B8B0046049D /* Tweak.xm in Resources */ = {isa = PBXBuildFile; fileRef = 7163C1DC1F622B8B0046049D /* Tweak.xm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		7163C1C41F622B310046049D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7163C1C71F622B310046049D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7163C1C91F622B310046049D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7163C1D01F622B8B0046049D /* TKChatRoomSensitiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKChatRoomSensitiveViewController.h; sourceTree = "<group>"; };
+		7163C1D11F622B8B0046049D /* TKChatRoomSensitiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKChatRoomSensitiveViewController.m; sourceTree = "<group>"; };
+		7163C1D21F622B8B0046049D /* TKEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEditViewController.h; sourceTree = "<group>"; };
+		7163C1D31F622B8B0046049D /* TKEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEditViewController.m; sourceTree = "<group>"; };
+		7163C1D41F622B8B0046049D /* TKMultiSelectContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMultiSelectContactsViewController.h; sourceTree = "<group>"; };
+		7163C1D51F622B8B0046049D /* TKMultiSelectContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMultiSelectContactsViewController.m; sourceTree = "<group>"; };
+		7163C1D61F622B8B0046049D /* TKRobotConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRobotConfig.h; sourceTree = "<group>"; };
+		7163C1D71F622B8B0046049D /* TKRobotConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRobotConfig.m; sourceTree = "<group>"; };
+		7163C1D81F622B8B0046049D /* TKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSettingViewController.h; sourceTree = "<group>"; };
+		7163C1D91F622B8B0046049D /* TKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSettingViewController.m; sourceTree = "<group>"; };
+		7163C1DA1F622B8B0046049D /* TKToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKToast.h; sourceTree = "<group>"; };
+		7163C1DB1F622B8B0046049D /* TKToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKToast.m; sourceTree = "<group>"; };
+		7163C1DC1F622B8B0046049D /* Tweak.xm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tweak.xm; sourceTree = "<group>"; };
+		7163C1DD1F622B8B0046049D /* WeChatRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRobot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 		7163C1B71F622B310046049D /* WeChatPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				7163C1CF1F622B8B0046049D /* WeChatPlugin */,
 				7163C1BB1F622B310046049D /* AppDelegate.h */,
 				7163C1BC1F622B310046049D /* AppDelegate.m */,
 				7163C1BE1F622B310046049D /* ViewController.h */,
@@ -77,6 +99,27 @@
 				7163C1B91F622B310046049D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7163C1CF1F622B8B0046049D /* WeChatPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				7163C1D01F622B8B0046049D /* TKChatRoomSensitiveViewController.h */,
+				7163C1D11F622B8B0046049D /* TKChatRoomSensitiveViewController.m */,
+				7163C1D21F622B8B0046049D /* TKEditViewController.h */,
+				7163C1D31F622B8B0046049D /* TKEditViewController.m */,
+				7163C1D41F622B8B0046049D /* TKMultiSelectContactsViewController.h */,
+				7163C1D51F622B8B0046049D /* TKMultiSelectContactsViewController.m */,
+				7163C1D61F622B8B0046049D /* TKRobotConfig.h */,
+				7163C1D71F622B8B0046049D /* TKRobotConfig.m */,
+				7163C1D81F622B8B0046049D /* TKSettingViewController.h */,
+				7163C1D91F622B8B0046049D /* TKSettingViewController.m */,
+				7163C1DA1F622B8B0046049D /* TKToast.h */,
+				7163C1DB1F622B8B0046049D /* TKToast.m */,
+				7163C1DC1F622B8B0046049D /* Tweak.xm */,
+				7163C1DD1F622B8B0046049D /* WeChatRobot.h */,
+			);
+			path = WeChatPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +184,7 @@
 				7163C1C81F622B310046049D /* LaunchScreen.storyboard in Resources */,
 				7163C1C51F622B310046049D /* Assets.xcassets in Resources */,
 				7163C1C31F622B310046049D /* Main.storyboard in Resources */,
+				7163C1E41F622B8B0046049D /* Tweak.xm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7163C1E21F622B8B0046049D /* TKSettingViewController.m in Sources */,
 				7163C1C01F622B310046049D /* ViewController.m in Sources */,
+				7163C1DF1F622B8B0046049D /* TKEditViewController.m in Sources */,
 				7163C1BD1F622B310046049D /* AppDelegate.m in Sources */,
+				7163C1E31F622B8B0046049D /* TKToast.m in Sources */,
 				7163C1BA1F622B310046049D /* main.m in Sources */,
+				7163C1E11F622B8B0046049D /* TKRobotConfig.m in Sources */,
+				7163C1E01F622B8B0046049D /* TKMultiSelectContactsViewController.m in Sources */,
+				7163C1DE1F622B8B0046049D /* TKChatRoomSensitiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
